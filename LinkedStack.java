@@ -5,7 +5,7 @@ public class LinkedStack<E> {
     private Entry top;
     private int size;
 
-    class Entry {
+    private class Entry {
 
         private Entry previous;
         private E element;
